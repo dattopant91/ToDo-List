@@ -1,0 +1,39 @@
+<h1>{{title}}</h1>
+
+<input type="text" [(ngModel)]="newTodo" placeholder="Enter Task"  #task />
+
+<br><br>
+
+<button (click)="addTask(task.value)">Add new Task</button>
+<br><br>
+
+<ul *ngFor="let item of list">
+  <li class="warn">{{item.name}} <button (click)="removeTask(item.id)">Remove</button></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<input type="text" #box >
+<button (click)="getValue(box.value)">click</button>
+<div *ngFor="let val of displayVal">
+
+  <p>{{val.name1}}</p>
+</div> -->
+<!-- 
+<button (click)="counter('minus')">--</button>
+<p>{{count}}</p>
+<button (click)="counter('add')">++</button>
+
+<app-color-demo></app-color-demo> -->

@@ -1,0 +1,26 @@
+div {
+  width: 700px;
+  height: 200px;
+}
+.pd{
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+.blue{
+  color: blue;
+  background-color: blue;
+  /* border-radius: 100px; */
+}
+.green{
+  color: green;
+  background-color: green;
+}
+.yellow{
+  color: yellow;
+  background-color: yellow;
+}
+.red{
+  color: red;
+  background-color: red;
+}
